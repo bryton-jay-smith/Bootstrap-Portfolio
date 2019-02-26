@@ -45,6 +45,7 @@ header {
   box-shadow: 10px 10px lightgrey;
   margin-top: 5%;
   padding: 20px;
+  min-height: 500px;
 }
 
 p {
@@ -78,4 +79,33 @@ button {
 
 button:hover{
     background-color: #a74b4b;
+}
+
+.banner {
+  width: 300px;
+  background-color: indianred;
+  height: 40px;
+  z-index: 2;
+  text-align: center;
+  margin-top: 125px;
+  padding-top: 10px;
+}
+
+.banner:hover {
+  background-color: firebrick;
+}
+
+.project {
+  background-image: url("../images/example.png");
+  background-color: #cccccc;
+  height: 250px;
+  width: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.project > a:hover {
+  background-color: rgba(0,0,0,0);
 }
